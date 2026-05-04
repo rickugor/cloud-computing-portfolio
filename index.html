@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick C. Ugorji - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Rick C. Ugorji</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="container text-center mt-5 mb-5">
+        <h1 class="display-4 fw-bold">Rick C. Ugorji</h1>
+        <p class="lead">Computer Science & Information Technology Major | Cybersecurity & Information Assurance</p>
+        <p>Green Bay, WI | <a href="mailto:ugorrc29@uwgb.edu">ugorrc29@uwgb.edu</a> | 608.445.5987</p>
+    </header>
+
+    <section id="education" class="bg-light-custom">
+        <div class="container">
+            <h2 class="section-heading">Education & Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>University of Wisconsin - Green Bay</h4>
+                    <p><strong>Bachelor of Science</strong>, Anticipated May 2028<br>
+                    Major: Computer Science and Information Technology (Cybersecurity & Information Assurance)<br>
+                    Minor: Business Administration<br>
+                    GPA: 3.6/4.00</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Technical Skills</h4>
+                    <p><strong>Languages & Cloud:</strong> Python, Java, AWS, HTML, CSS, JavaScript</p>
+                    <p><strong>Coursework:</strong> Cloud Computing, Computer Networks, Intro to Python, Computer Programming II</p>
+                    <p><strong>Core Competencies:</strong> Inventory management, problem-solving, teamwork, working under pressure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container mt-5 mb-5">
+        <h2 class="section-heading">Technical Projects</h2>
+        <div class="resume-item">
+            <h4>Self-Hosted Music & Movie Library (Homelab)</h4>
+            <p><em>Core Tech: Proxmox VE, Docker Compose, Linux, Tailscale VPN, Nginx Proxy Manager, FFmpeg, Python</em></p>
+            <ul>
+                <li>Built and managed a containerized server environment using Proxmox VE and Docker Compose to host diverse media services, managing a 6TB data library.</li>
+                <li>Architected secure network implementing a Tailscale Mesh VPN, an Nginx Reverse Proxy with SSL/TLS, and hardened specific containers with ProtonVPN integration.</li>
+                <li>Automated data acquisition pipelines and optimized bandwidth utilization by 90% through custom transcoding profiles and script automation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="bg-light-custom">
+        <div class="container">
+            <h2 class="section-heading">Work Experience</h2>
+            
+            <div class="resume-item">
+                <h4>UW Green-Bay Housing & Residential Education</h4>
+                <p><strong>Hall Manager</strong> (Jan 2025 - Present) | <strong>Summer Housing Assistant</strong> (May 2025 - Sep 2025) | <strong>Resident Mentor</strong> (Aug 2024 - Dec 2024)</p>
+                <ul>
+                    <li>Manage a University Residence Hall of 190 diverse undergraduate students.</li>
+                    <li>Enhance on-campus living by providing programs and creating an inviting community.</li>
+                    <li>Manage and support Resident Mentors in various situations.</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <h4>Walmart & Charlie's Fair Fun Foods</h4>
+                <p><strong>Overnight Stocking & Digital Shopper</strong> | Walmart (May 2025 - Present)<br>
+                <strong>Cashier and Stock Runner</strong> | Charlie's Fair Fun Foods (Jun 2024 - Aug 2024)</p>
+                <ul>
+                    <li>Manage inventory, organize orders by priority, and provide direct customer service in fast-paced retail and event environments.</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <h4>Technicut</h4>
+                <p><strong>CNC Operator</strong> (May 2023 - Aug 2023)</p>
+                <ul>
+                    <li>Oversee parts manufacturing and performed strict quality and safety checks.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="container text-center mt-5 mb-4">
+        <p class="text-muted">© <span id="currentYear"></span> Rick C. Ugorji. Deployed via Jenkins CI/CD.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
